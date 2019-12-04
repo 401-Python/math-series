@@ -33,13 +33,14 @@ Calling this function with no optional parameters will produce numbers from the 
     This function takes in 3 parameters:
       ```n``` which corresponds to the nth number in the series
       ```tortoise``` and ```hare``` which correspond to the starting pair of numbers for the series. By default these 2 values are equal to 0 and 1 respectively, the starting numbers for a fibbonacci sequence.
-      Using a for loop I iterate from 2 (because the first 2 numbers are established) to n
-      At each iteration there are 4 actions:
-        First, I store the sum of tortoise and hare in a new variable, ```fib```
-        Second, I print the value of ```fib```
-        Third, I reassign the variable ```tortoise``` to the value of ```hare``` which moves it up in the sequence
-        Fourth, ```hare``` is reassigned to the value of ```fib``` which moves it up in the sequence
-        Finally, I return ```fib``` (I could also return hare at this point but fib made more sense in my head)
+      Using a for loop I iterate from 2 (because the first 2 numbers are established) to n  
+      
+      At each iteration there are 4 actions:  
+        First, I store the sum of tortoise and hare in a new variable, ```fib```   
+        Second, I print the value of ```fib``` 
+        Third, I reassign the variable ```tortoise``` to the value of ```hare``` which moves it up in the sequence  
+        Fourth, ```hare``` is reassigned to the value of ```fib``` which moves it up in the sequence  
+        Finally, I return ```fib``` (I could also return hare at this point but fib made more sense in my head)  
 
 
   * ```lucas()```
