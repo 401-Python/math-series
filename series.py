@@ -13,7 +13,7 @@ def fibonacci(n, tortoise=0, hare=1):
         elif n == 1:
             return hare
         else:
-            for i in range(2, n):
+            for i in range(1, n):
                 fib = tortoise + hare
                 print(fib)
                 tortoise = hare
@@ -33,3 +33,7 @@ def sum_series(n, tortoise=0, hare=1):
     return fibonacci(n, tortoise, hare)
 
 
+sum_series(8)
+sum_series(8, 2)
+fibonacci(8)
+lucas(8)
