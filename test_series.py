@@ -18,20 +18,20 @@ def test_validate_input_below_zero():
 
 def test_fibbonacci():
   actual = fibonacci(8)
-  expected = 13
+  expected = 21
   assert actual == expected
 
 def test_lucas():
   actual = lucas(8)
-  expected = 29
+  expected = 47
   assert actual == expected
 
 def test_sum_series():
   actual = sum_series(8)
-  expected = 13
+  expected = 21
   assert actual == expected
 
 def test_sum_series_with_param():
   actual = sum_series(8, 2)
-  expected = 29
+  expected = 47
   assert actual == expected
